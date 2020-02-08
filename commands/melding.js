@@ -46,7 +46,7 @@ module.exports.run = async (bot, message, args) => {
     var announcementMessage = new discord.RichEmbed()
         .setTitle("mededeling")
         .setColor(options.kleur)
-        .setDescription(`Bericht van SameCommunity \n\n ${options.titel} \n\n ${options.bericht} \n`)
+        .setDescription(`Bericht van NieuwDijk \n\n ${options.titel} \n\n ${options.bericht} \n`)
         .setTimestamp();
 
     // Kanaal krijgen waar het verzonden moet worden.
