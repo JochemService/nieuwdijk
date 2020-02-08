@@ -45,6 +45,17 @@ bot.on('message', message => {
 
 });
 
+bot.on("guildMemberAdd", member => {
+
+
+    const channel = member.guild.channels.find("name", "👋welkom");
+
+    if(!channel) return;
+
+    channel.send(`Hey ${member}, welkom op **Nieuwdijk**. Voor vragen maak een ticket aan. En voor de rest maak veel plezier:tada::hugging:!`);
+
+});
+
 
 // chat bot
 
